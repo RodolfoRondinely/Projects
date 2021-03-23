@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <title>NetFlix</title>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Almarai', sans-serif;
+}
+header img{
+    width: 200px;
+    height: 100px;
+    margin-left: -85%;
+    margin-bottom: 35px;   
+}
+.perfis {
+    display: flex;
+    background-color: black;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(153, 143, 143);
+    flex-wrap: wrap;
+}
+.logos{
+    display: flex;
+    flex-direction:column;
+    width: 120px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.logos img{
+    width: 140px;
+    height:140px;
+    border-radius: 10%;
+    margin: 200px;
+}
+p{
+    font-size:small;
+    font-style:  bold;
+    margin-top: 150px;
+    
+}
+input{
+    color: rgb(153, 143, 143);
+    text-transform: uppercase;
+    margin: 60px 0;
+    font-weight: lighter;
+    font-size: medium;
+    border-radius: 5%;
+    padding: 8px 20px;
+    border-style:inset;
+    cursor: pointer;
+    background: none;
+    text-align:center;
+    justify-content: center;
+    justify-items: center;
+}
+.logos img:hover, input:hover  {
+    border-color: blanchedalmond;
+    border-style:ridge;
+}
+.logos-1 {
+    background:url("https://i.pinimg.com/236x/ad/82/82/ad82822c13de19ecc6fd507fe717b28c.jpg");
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+}
+.logos-2 {
+    background:url("https://i.pinimg.com/564x/74/75/5a/74755a221b35c18e4a24dc1818dbd8a9.jpg");
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+}.logos-3 {
+    background:url("https://i.pinimg.com/564x/74/75/5a/74755a221b35c18e4a24dc1818dbd8a9.jpg");
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+}
+
+</style>
+}
+</head>
+<body>
+    <header>
+<img src="https://i.pinimg.com/564x/12/49/93/1249933f085ac651af5c09842d9b00e2.jpg" alt="Logo NetFlix">
+    </header>
+    <main>
+       Quem está assistindo?
+<div class="perfis">
+    <div class="logos-1">
+        <p>
+            Enzo
+        </p>
+    </div>
+    <div class="logos-2">
+        <p>
+            Calebe
+        </p>
+            </div>
+    <div class="logos-3">
+        <p>
+            Isabela
+        </p>
+</div>
+<input type="button" value="gerenciar perfis">
+    </main>
+    <p>
+        &copy Rodolfo Rondinely <br>
+        Analista de Sistemas <br>
+        Web Developer <br>
+    </p>
+</body>
+</html>

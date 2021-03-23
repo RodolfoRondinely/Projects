@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrosel</title>
+</head>
+<body>
+    <div id="slider">
+        <img class="selected" src="./img/teste.jpg" alt="">
+        <img src="./img/happylogo.png" alt="">
+        <img src="./img/planos.PNG" alt="">
+        <img src="./img/Business Consultant & Management Consultant.jpg" alt="">
+        <img src="./img/Redes Sociais ATTOM-IC.jpg" alt="">
+    </div>
+
+    <main>
+
+        <div id="formTeste">
+
+            <img src="./img/happylogo.png" alt="">
+                <form action="">
+                    <fieldset>
+                            <legend>Cadastro</legend>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome">
+                            <label for="telefone">Telefone</label>
+                            <!--<input type="tel" name="telefone" id="telefone"> -->
+                            <textarea name="" id="telefone" cols="50" rows="5" ></textarea>
+                            <input type="button" value="Cadastrar" onclick="cadastrar()">
+                            <input type="button" value="Alterar" onclick="comentar()">
+                            <div id="res">...</div>           
+                            
+                    </fieldset>
+                </form>
+                   <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela">
+                        
+                    </tbody>
+                   </table>
+            </div>
+    </main>
+    <script src="scripts.js"></script>
+
+</body>
+</html>

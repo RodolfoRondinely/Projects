@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;    
+}
+fieldset{
+flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+}
+#dadosF{
+    align-items: flex-start;
+    background: lightblue;
+    padding: 15px;
+}
+#horario{
+    background:greenyellow;
+}
+#horario th, #horario td{
+    padding-right: 10px;
+    border: 2px blue solid;
+
+}
+.horaobs{
+    background:rgba(33,10,13, .5);
+    color:yellow;
+    width: 300px;
+}

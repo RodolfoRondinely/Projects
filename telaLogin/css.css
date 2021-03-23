@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+}body{
+    background: url(/lojacarro/img/logocar.jpg);
+    background-size: cover;
+    background-color: black;
+}
+
+section h1{
+    color: white;
+    font-size: 10vmin;
+    text-align: center;
+}
+section h2{
+    color: white;
+    font-size: 6vmin;
+    padding-bottom: 110px;
+}
+section{
+    font-family: 'Syne Mono', monospace;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
+section input{
+
+    color:white;
+    font-size: 25px;
+    padding:10px;
+    margin: 10px;
+    border: none;  
+    background:transparent;  
+    border-bottom: olivedrab 5px double;
+    outline: none;
+}
+#btnSubmit{
+    text-transform: uppercase;
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+
+    padding:10px;
+    margin: 10px;
+    background: rgb(76, 231, 62);
+    border:white 5px solid;
+    
+    border-radius: 50%;
+    
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 50px;
+    
+}
+section ::placeholder{
+    font-style: italic;
+    text-align:center;
+    color:white;
+}
+.imgs{
+    width: 400px;
+    height: 200px;
+}
+.imgs img{
+    width: 400px;
+    height: 200px;
+    max-width: max-content;
+    position: absolute;
+    animation-name: fotos;
+    animation-duration: 10s;
+    animation-iteration-count:initial;
+    transition-delay: .4s;
+
+}
+@keyframes fotos{
+    25%{
+        opacity: 1;
+        transform:scale(1.2) ;
+    }
+    55%{
+        opacity: 0;
+        transform:scale(1.1) ;
+    }
+}
+section input::before{
+    box-shadow:  0 0 50px #0f0;
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("../lojasCaminhao/img/fundo14.jpg");
+    background-repeat: no-repeat(y);
+    background-size: 100%;
+    }
+
+header {
+    background-color: #000;
+    display: flex;
+    color: wheat;
+    align-items: center;
+    opacity: 80%;
+}
+header ul{
+    display: flex;
+padding-left: 50px;
+}
+header li{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-style: italic;
+}
+h1{
+    color: #e3e1e7;
+    text-shadow: 0px 10px 20px #503296;
+}
+.containner{
+    text-align: center;
+    justify-content: center;   
+    align-items: center;
+
+    justify-content: center;
+    padding-top:20vh ;
+    font-style: italic;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    opacity: 90%;
+
+}#logofrase{
+    font-size: 12vh;
+    opacity: 50%;
+    text-shadow: 1px 3px 4px #f1f1f1;
+}
+
+a{
+    color: rgb(15, 189, 233);
+    text-decoration: none;
+}
+a:hover {
+    color:cyan;
+    background-color:#00000022;
+    transform: 10s;
+}
+
+.vendas{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 30px;
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;   
+    background: rgb(226, 213, 213);
+    opacity: 90%;
+}
+.caminhoes{
+    
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border:2px solid white;
+    border-style:outset;
+}
+.caminhoes img{
+    width: 200px;
+    height: 200px;   
+}
+.caminhoes p{
+    padding: 3px;
+}
+
+footer  {
+    background-color: #000;
+    display: flex;
+    color: wheat;
+    margin-top: 150px;
+    align-items: center;
+    opacity: 80%;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+footer li{
+    display: flex;
+    padding: 10px;
+    margin-left: 80px;
+    flex-direction: column;
+}
+footer img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.maps h1{
+    text-align: center;
+    padding:50px 30px;
+
+}
+
+#allrigth{
+    display: flex;
+    color:white;
+    text-align: center;
+    justify-content: center;    
+    padding-top: 10px;
+}

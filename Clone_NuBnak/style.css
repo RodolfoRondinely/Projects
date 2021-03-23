@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(142, 103, 194);
+}
+ a{
+    text-decoration: none;
+}
+li{
+    list-style: none;    
+
+}
+
+header {
+    display: flex;
+    background:rgb(255, 255, 255);
+    align-items: center;
+    height: 70px;
+}
+header ul{
+
+    display: flex;
+    align-items: center ;
+}
+header ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: slategray;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+header img{
+    width: 50px;
+    height: 25px;
+}
+header a{
+    color:white;
+}
+header span img{
+    width: 20px;
+    height: 20px;
+}
+.novo{
+    background-color: violet;
+    opacity: 30%;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 45px;
+}
+
+.telas , .telas2,.telas3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.telas1{
+    width: 300px;
+}
+.telas1-imgCelular img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5%;
+}.telas1-tela1{
+    width: 300px;
+}
+.telas1-form form{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    align-items: center;
+    border-radius: 45px;    
+}
+.telas1-form form p{
+    padding: 10% 5% ;
+    font-weight: 600;
+    font-size: x-large;
+}
+.telas1-form form #cpf{
+    width: 90%;
+    border:0;
+    border-bottom:grey 2px solid;
+
+    margin-top: 10%;
+}
+
+.telas1-form form #btn{
+
+    color: hotpink;
+    width: 90%;
+    height: 15%;
+    font-size: medium;
+    border-radius: 45px;
+    margin-top: 20%;
+}
+.telas2, .telas3{
+    width: 1200px;
+    height: 600px;
+    background:white;
+    color: black;
+    font-size: x-large;
+    margin: 0px;align-items: center;
+    justify-content: space-between;
+}
+.telas2 ,.telas3 h1{
+    padding-left: 5%;
+    justify-items: center;
+}
+.telas2 img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.tela3-img img{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    padding-right: 20%;
+}
+.telas3{
+    background-color:rgb(224, 218, 224)
+}
+footer{
+    display: flex;
+    background: black;
+    color: aliceblue;    
+    justify-content: space-between;
+}
+.rigth,.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    
+}
+h3{
+    
+    padding: 20% 0;
+}
+hr{
+    color: antiquewhite;
+}

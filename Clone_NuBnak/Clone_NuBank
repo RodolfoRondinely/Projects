@@ -1,0 +1,13 @@
+.telas{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.telas-telas1{
+    width: 200px;
+}
+.telas1-imgCelular img{
+width: 200px;
+height: 400px;
+}

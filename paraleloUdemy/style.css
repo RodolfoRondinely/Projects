@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #8A2BE2;
+    text-align: center;
+    justify-items: center;
+    align-content: space-between;
+    width: 900px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;width: 900px;
+    font-size: 15px;    
+    padding-bottom: 10px;
+    color: white;
+}
+header li{
+    display: inline;
+    flex-direction: column;
+    padding-left: 10px;
+    color: honeydew;
+    box-shadow: 1px 2px 3px black;
+    padding: 15px;
+    border-radius: 7vh;
+    margin-right: 15px;
+
+}
+header img{
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: outset;
+    box-shadow: 10px 1px 10px rgb(216, 200, 226);
+
+}nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 900px;
+    box-shadow: 10px 5px 5px rgb(216, 200, 226);
+}
+.icon{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 10px 1px 10px rgb(216, 200, 226);
+}
+header li:hover{
+    background:rgb(220, 185, 248);
+    color: rgb(16, 5, 31);
+    font-weight: bold;
+    transition: linear 0.5s;
+    border-style: double;
+}
+#foto:hover{
+    background:white;
+    width: 20vh;
+    height: 20vh;
+    transition: linear 1s;
+    transform: matrix(120deg);
+
+
+}
+.formulario{
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+/*https://www.youtube.com/watch?v=OFmdxhf2O-0*/
+
